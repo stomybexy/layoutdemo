@@ -1,0 +1,40 @@
+/*
+    Css reset
+*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px  */
+}
+
+body {
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    height: 6rem; /* 60px */
+    background: blue; /* just for test */
+}
+
+.main {
+    background: yellow;
+    flex: 1;
+}
+
+.footer {
+    height: 6rem;
+    background: green;
+}
